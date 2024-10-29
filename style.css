@@ -37,7 +37,7 @@
     display: block;
     font: bold 28px 'Courier New', sans-serif;
 }
-#tasksubname {
+.tasksubname {
     margin-left: 15px; 
     font-size: 24px; 
     font-weight: bold; 
