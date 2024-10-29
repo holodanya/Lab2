@@ -1,0 +1,132 @@
+
+#labtheme {
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    width: 375px;
+    color: blueviolet;
+    font: bold 24px 'Courier New', sans-serif;
+}
+
+::selection {
+    background-color: rgba(147, 56, 199, 0.4);
+}
+
+#labtheme::selection {
+    color: black;
+}
+
+#floatimg {
+    margin-top: 80px;
+}
+
+.csslogo {
+    float: left;
+    margin-right: 20px;
+    width: 120px;
+}
+
+#taskfloat {
+    margin: 20px;
+    display: block;
+    font: bold 28px 'Courier New', sans-serif;
+}
+
+#taskname { 
+    margin: 20px;
+    display: block;
+    font: bold 28px 'Courier New', sans-serif;
+}
+#tasksubname {
+    margin-left: 15px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: blueviolet; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navmenu {
+    width: 150px;
+    height: 130px;
+    background-color: beige; 
+    margin: 15px;    
+    
+}
+#navmenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#navmenu li {
+    padding: 5px;
+    transition: background-color 0.25s;
+}
+
+
+#navmenu li.active {
+    background-color: coral; 
+}
+
+#navmenu li.active a { 
+    color: white; 
+}
+
+#navmenu a {
+    display: block;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    transition: color 0.25s;
+
+}
+
+#navmenu li:hover {
+    background-color: cyan; 
+}
+
+#navmenu li.active:hover {
+    background-color: cyan; 
+}
+#navmenu li.active a:hover { 
+    color: black; 
+}
+
+#navmenu li:active {
+    background-color: gray; 
+}
+
+#navmenu li.active:active {
+    background-color: gray; 
+}
+
+#buttoncontainer {
+    margin: 40px ; 
+}
+
+#bouncingbutton {
+    position: relative;
+    padding: 15px 30px; 
+    font-size: 20px; 
+    color: white; 
+    background-color: coral; 
+    border: none; 
+    border-radius: 5px; 
+    animation: bounce 1.5s infinite; 
+}
+
+
+@keyframes bounce {
+    0%, 50%, 100% {
+        top: -30px; 
+    }
+    30% {
+        top: 0px; 
+    }
+    70% {
+        top: 0px; 
+    }
+    90% {
+        top: 0px; 
+    }
+}
